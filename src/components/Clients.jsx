@@ -1,6 +1,6 @@
 const Clients = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-20 bg-white">
         <h1 className="text-center text-4xl font-semibold text-[#0691F2]">MY CLIENTS</h1>
 
         <div className="mt-5">

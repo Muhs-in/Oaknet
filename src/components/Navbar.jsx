@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header>
     <nav className='flex justify-between mt-6'>
-      <div className="text-3xl font-bold">Muhsin.</div>
+      <div className="text-3xl font-bold text-[#0691f2]">Muhsin.</div>
       <div className="nav-links">
         <ul className='flex gap-8 justify-center items-center mt-2'>
             <li><a href="#">Home</a></li>
@@ -15,7 +15,7 @@ const Navbar = () => {
             <li><a href="#">Services</a></li>
         </ul>
       </div>
-      <div className="text-white bg-blue-500 p-2 items-center rounded-xl cursor-pointer">Contact Me</div>
+      <div className="ring-2 ring-blue-400 text-white bg-[#5F4ACA] p-2 items-center rounded-xl cursor-pointer">Contact Me</div>
     </nav>
  </header>
   )
